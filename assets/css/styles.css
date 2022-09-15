@@ -7,12 +7,14 @@
 }
 
 #output {
+  position: relative;
   background-color: rgb(76, 186, 222);
   width: 200px;
   padding: 50px;
   text-align: center;
   color: white;
   border-radius: 50px;
+  left: 370px;
 }
 
 .main-skin {
@@ -36,6 +38,19 @@
   width: 77px;
 }
 
+.nose-ears {
+  background-color: #cd845b;
+}
+
+.mouth {
+  background-color: #1e1e1e;
+  z-index: 3;
+}
+
+.bottom-face {
+  z-index: 2;
+}
+
 #main-head {
   height: 363px;
   width: 438px;
@@ -49,30 +64,100 @@
   height: 203px;
   width: 438px;
   bottom: 320px;
+  margin-bottom: -400px;
   left: 300px;
 }
 
 #eyebrow-1 {
   left: 548px;
-  bottom: 300px;
+  bottom: -100px;
+  /* bottom: 300px; */
   z-index: 3;
 }
 
 #eyebrow-2 {
   left: 360px;
-  bottom: 337px;
+  bottom: -63px;
+  /* bottom: 337px; */
   z-index: 3;
 }
 
 #eye-1 {
   left: 381px;
-  bottom: 337px;
+  bottom: -63px;
+  /* bottom: 337px; */
   z-index: 3;
 }
 
 #eye-2 {
-  bottom: 419px;
+  /* bottom: 419px; */
   left: 576px;
+  bottom: 19px;
   z-index: 3;
 }
 
+#nose {
+  width: 61px;
+  height: 147px;
+  /* bottom: 438px; */
+  bottom: 38px;
+  left: 487px;
+  z-index: 3;
+}
+
+#left-mouth,
+#right-mouth {
+  width: 50px;
+  height: 48px;
+  z-index: 3;
+}
+
+#left-mouth {
+  left: 397px;
+  /* bottom: 438px; */
+  bottom: 38px;
+}
+
+#right-mouth {
+  bottom: 86px;
+  left: 591px;
+}
+
+#bottom-mouth {
+  width: 194px;
+  height: 38px;
+  margin-bottom: -93px;
+  bottom: 93px;
+  left: 421px;
+}
+
+#bottom-face-1 {
+  width: 438px;
+  height: 33px;
+  bottom: 93px;
+  margin-bottom: -93px;
+  left: 300px;
+}
+
+#bottom-face-2 {
+  width: 367px;
+  height: 38px;
+  margin-bottom: -93px;
+  left: 339px;
+}
+
+#bottom-face-3 {
+  width: 300px;
+  height: 51px;
+  margin-bottom: -93px;
+  top: 89px;
+  left: 360px;
+}
+
+#bottom-face-4 {
+  width: 180px;
+  height: 53px;
+  top: 182px;
+  left: 439px;
+  margin-bottom: 150px;
+}
